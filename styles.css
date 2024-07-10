@@ -1,3 +1,37 @@
 body {
     background-color: #000B0D;
 }
+
+.navbar-custom {
+    background-color: #000B0D;
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-family: "Playwrite TZ", cursive;
+    color: #A52502;
+    font-size: 30px;
+
+}
+
+.navbar-custom,
+.navbar-custom 
+.navbar-nav 
+.nav-link {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #A52502;
+}
+
+.navbar-brand:hover {
+    color: #390D02 !important;
+}
+
+.row {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+p {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    color: #1C8394;
+}
