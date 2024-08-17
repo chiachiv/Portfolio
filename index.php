@@ -11,7 +11,7 @@
 <body>
     <!-- Fixed Image Section -->
     <div class="fixed-sidebar">
-        <img src="profile.jpg" alt="Profile Image" class="profile-img">
+        <img src="images/photo_2024-03-12_22-28-09.jpg" alt="Profile Image" class="profile-img">
         <h1 class="sidebar-heading">Your Name</h1>
         <p class="sidebar-subheading">Frontend Developer & UX/UI Designer</p>
         <a href="cv.pdf" download class="download-cv">Download CV</a>
@@ -34,19 +34,19 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <?php
                 $projects = [
-                    ['title' => 'Project 1', 'description' => 'Description for project 1', 'link' => 'project1.php'],
-                    ['title' => 'Project 2', 'description' => 'Description for project 2', 'link' => 'project2.php'],
-                    ['title' => 'Project 3', 'description' => 'Description for project 3', 'link' => 'project3.php'],
-                    ['title' => 'Project 4', 'description' => 'Description for project 4', 'link' => 'project4.php'],
+                    ['title' => 'Project 1', 'description' => 'Description for project 1', 'link' => 'project1.php', 'image' => 'images/dissdef.jpg'],
+                    ['title' => 'Project 2', 'description' => 'Description for project 2', 'link' => 'project2.php', 'image' => 'images/compostdef.jpg'],
+                    ['title' => 'Project 3', 'description' => 'Description for project 3', 'link' => 'project3.php', 'image' => 'images/medcaredef.jpg'],
+                    ['title' => 'Project 4', 'description' => 'Description for project 4', 'link' => 'project4.php', 'image' => 'images/trueintdef.jpg'],
                 ];
                 foreach ($projects as $project) {
                     echo '
                     <div class="project-card">
-                        <img src="project-placeholder.jpg" alt="' . $project['title'] . '">
+                        <img src="' . htmlspecialchars($project['image']) . '" alt="' . htmlspecialchars($project['title']) . '">
                         <div class="content">
-                            <h3>' . $project['title'] . '</h3>
-                            <p>' . $project['description'] . '</p>
-                            <a href="' . $project['link'] . '">Read More</a>
+                            <h3>' . htmlspecialchars($project['title']) . '</h3>
+                            <p>' . htmlspecialchars($project['description']) . '</p>
+                            <a href="' . htmlspecialchars($project['link']) . '">Read More</a>
                         </div>
                     </div>';
                 }

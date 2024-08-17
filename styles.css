@@ -175,4 +175,46 @@ section h2 {
     cursor: pointer;
 }
 
+.project-card {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    background: #fff; /* Ensures a white background for the card */
+    display: flex;
+    flex-direction: column;
+}
 
+.project-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Ensures images cover the card while maintaining aspect ratio */
+}
+
+.project-card .content {
+    padding: 16px;
+    flex: 1; /* Allows content to take up available space */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Distributes space between content and button */
+}
+
+.project-card .content p {
+    margin: 0; /* Removes default margin */
+}
+
+.project-card .content a {
+    margin-top: auto; /* Pushes the button to the bottom */
+    text-align: center;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    text-decoration: none; /* Removes underline */
+    border-radius: 4px; /* Rounded corners */
+    font-weight: bold; /* Makes text bold */
+}
+
+.project-card .content a:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
