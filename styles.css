@@ -1,37 +1,178 @@
-body {
-    background-color: #000B0D;
+/* Ensure that the body takes full height to accommodate the fixed sidebar */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #D0D4C5;
 }
 
-.navbar-custom {
-    background-color: #000B0D;
+/* Fix the sidebar to the left side and ensure it spans the full height with a background image */
+.fixed-sidebar {
+    width: 25%; /* Adjust this value if you change the sidebar width */
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background-image: url('images/73f52868d7a7f21f2313bcf8b7fd3bdb.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensure the image covers the sidebar */
+    background-position: center; /* Center the image */
+    color: #fff; /* Text color to contrast with the background */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem; /* Added padding to create some space around content */
+    box-sizing: border-box;
+    text-align: center; /* Center the text */
 }
 
-.navbar-brand {
-    font-weight: bold;
-    font-family: "Playwrite TZ", cursive;
-    color: #A52502;
-    font-size: 30px;
-
+/* Style for the profile image */
+.profile-img {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 50%;
+    border: 0.25rem solid #fff;
+    margin-bottom: 1rem;
 }
 
-.navbar-custom,
-.navbar-custom 
-.navbar-nav 
-.nav-link {
+/* Style for the heading */
+.sidebar-heading {
+    font-size: 1.875rem; /* Tailwind's text-3xl */
+    margin-bottom: 0.5rem;
     font-family: "Plus Jakarta Sans", sans-serif;
-    color: #A52502;
+    color: #0D261B;
 }
 
-.navbar-brand:hover {
-    color: #390D02 !important;
-}
-
-.row {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-p {
+/* Style for the subheading */
+.sidebar-subheading {
+    font-size: 1.125rem; /* Tailwind's text-lg */
+    margin-bottom: 1rem;
     font-family: "Plus Jakarta Sans", sans-serif;
-    color: #1C8394;
+    color: #0D261B;
 }
+
+/* Style for the CV download button */
+.download-cv {
+    background-color: #0D261B;; /* Tailwind's blue-500 */
+    color: #D0D4C5;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem; /* Tailwind's rounded */
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+/* Main content section should have a left margin equal to the width of the sidebar */
+.main-content {
+    margin-left: 25%; /* Matches the width of the fixed sidebar */
+    padding: 2rem;
+    overflow-y: auto;
+}
+
+/* Style for sections */
+section {
+    margin-bottom: 4rem;
+}
+
+section h2 {
+    font-size: 2.25rem; /* Tailwind's text-4xl */
+    margin-bottom: 1rem;
+}
+
+.project-card img {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+}
+
+.project-card {
+    background-color: #fff;
+    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
+    border-radius: 0.375rem;
+    overflow: hidden;
+}
+
+.project-card .content {
+    padding: 1.5rem;
+}
+
+.project-card a {
+    background-color: #4299e1; /* Tailwind's blue-500 */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 0.375rem; /* Tailwind's rounded */
+    text-decoration: none;
+}
+
+/* Flexbox adjustments for contact section */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.contact-info div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-info i {
+    font-size: 1.5rem; /* Tailwind's text-2xl */
+}
+
+.contact-info a {
+    color: #3182ce; /* Tailwind's blue-500 */
+    text-decoration: none;
+}
+
+/* Style for the fixed header section */
+.fixed-header {
+    position: fixed;
+    top: 0;
+    left: 25%; /* Adjust to the width of your sidebar */
+    width: 75%; /* Remaining width after the sidebar */
+    background-color: #6D9492; /* Matching background color */
+    padding: 1rem;
+    border-bottom: 1px solid #6D9492; /* Optional border with the same color */
+    z-index: 10; /* Ensure it stays on top of other content */
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); /* Optional subtle shadow to add depth */
+}
+
+/* Style for the header content wrapper */
+.header-content {
+    display: flex;
+    align-items: center; /* Vertically center the items */
+}
+
+/* Style for the back arrow */
+.back-arrow {
+    color: #000; /* Black color for the arrow */
+    font-size: 1.5rem; /* Adjust size as needed */
+    text-decoration: none; /* Remove underline */
+    margin-right: 1rem; /* Space between the arrow and title */
+}
+
+/* Style for the project title */
+.project-title {
+    font-size: 2.25rem; /* Larger font size similar to h1 */
+    font-weight: bold; /* Bold text for emphasis */
+    color: #333; /* Darker color for better contrast */
+    line-height: 1.2; /* Adjust line height for readability */
+}
+
+/* Ensure there is space for the fixed header */
+#project-details {
+    padding-top: 5rem; /* Adjust this value based on the height of the fixed header */
+    margin: 0 1rem; /* Optional: Add margins for better spacing */
+    margin-top: 5rem;
+}
+
+/* Ensure the profile image in sidebar is clickable */
+.profile-img.clickable {
+    cursor: pointer;
+}
+
+
