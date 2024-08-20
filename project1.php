@@ -14,10 +14,11 @@
 <body>
     <!-- Fixed Image Section -->
     <div class="fixed-sidebar">
+    <a href="index.php">
         <img src="images/tumblr_4750adcd4cd1bb9a0de2393a86835042_5e4b861f_640.jpg" alt="Profile Image" class="profile-img">
+    </a>
         <h1 class="sidebar-heading">Chiara Venanzetti</h1>
         <p class="sidebar-subheading">Frontend Developer & UX/UI Designer</p>
-        <a href="cv.pdf" download class="download-cv">Download CV</a>
     </div>
 
     <!-- Main Content -->
@@ -28,7 +29,7 @@
                 <a href="index.php" class="back-arrow">
                     <i class="fas fa-arrow-left"></i>
                 </a>
-                <h2 class="project-title">Project 1 Title</h2>
+                <h2 class="project-title">CompostIt</h2>
             </div>
         </div>
         
