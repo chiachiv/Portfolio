@@ -15,7 +15,7 @@
     <!-- Fixed Image Section -->
     <div class="fixed-sidebar">
     <a href="index.php">
-        <img src="images/tumblr_4750adcd4cd1bb9a0de2393a86835042_5e4b861f_640.jpg" alt="Profile Image" class="profile-img">
+        <img src="images/photo_2024-03-12_22-28-09.jpg" alt="Profile Image" class="profile-img">
     </a>
         <h1 class="sidebar-heading">Chiara Venanzetti</h1>
         <p class="sidebar-subheading">UX/UI Designer & Frontend Developer</p>
@@ -27,8 +27,8 @@
         <div class="about-container-wrapper">
             <div class="container">
                 <div class="container-text">
-                    <h2 class="in-title">Hello,</h2><p>I'm Chiara, a UX/UI Designer and Frontend Developer currently based in Rome, Italy.
-                    <br>I hold an MSc in Computing and my passion lies in creating user-centered digital experiences that seamlessly blend functionality and aesthetic appeal. I also have experience as a VFX artist and video editor, which has enriched my approach to design and visual storytelling.
+                    <h2 class="in-title">Hello,</h2><p>I'm Chiara, a <strong>UX/UI Designer</strong> and <strong>Frontend Developer</strong> currently based in Rome, Italy.
+                    <br>I hold an <strong>MSc in Computing</strong> and my passion lies in creating <strong>user-centered</strong> digital experiences that seamlessly blend functionality and aesthetic appeal. I also have experience as a <strong>VFX artist</strong> and <strong>video editor</strong>, which has enriched my approach to design and visual storytelling.
                     <br>When I’m not working on digital projects, I enjoy painting with watercolors and spending time with my cats. Creativity and a keen eye for detail are at the core of everything I do.
                     <br>Explore my portfolio to see the range of my work and how I bring ideas to life through design.</p>
                 </div>
@@ -43,9 +43,9 @@
         <div class="container-wrapper">
             <div class="column-container">
             <div class="column left">
-                    <h2 class="in-title">Education</h2><p>&#9790; MSc Computing - Edinburgh Napier University (2020 - 2022)<br><br>
-                    &#9790; Bachelor's degree in Philosohy - University of Rome La Sapienza (2011 - 2017)<br><br>
-                    &#9790; Professional qualification in Film Studies - Cine-tv Roberto Rossellini (2013 - 2015)</p>
+                    <h2 class="in-title">Education</h2><p>&#9790; <strong>MSc Computing</strong> - Edinburgh Napier University (2020 - 2022)<br><br>
+                    &#9790; <strong>Bachelor's degree in Philosohy</strong> - University of Rome La Sapienza (2011 - 2017)<br><br>
+                    &#9790; <strong>Professional qualification in Film Studies</strong> - Cine-tv Roberto Rossellini (2013 - 2015)</p>
                 </div>
                 <div class="column right">
                 <h2 class="in-title">Skills</h2>
@@ -54,19 +54,18 @@ Persona Development & Empathy Mapping &#9789;<br>
 Wireframing & High-Fidelity Prototyping &#9789;<br>
 Information Architecture &#9789;<br>
 Usability Testing & Iteration &#9789;<br>
-Accessibility & Inclusive Design &#9789;<br>
+Accessibility & Inclusive Design &#9789;<br><br>
 Building responsive layouts &#9789;<br>
 Developing interactive web applications &#9789;<br>
-Managing code versions & team collaboration &#9789;<br>
+Managing code versions & team collaboration &#9789;<br><br>
 Video Editing &#9789;<br>
 Motion Graphics & Animation &#9789;<br></p>
                 </div>
             </div>
             <div class="column-container">
             <div class="column left">
-                    <h2 class="in-title">Experience</h2><p>&#9790; MSc Computing - Edinburgh Napier University (2020 - 2022)<br><br>
-                    &#9790; Bachelor's degree in Philosohy - University of Rome La Sapienza (2011 - 2017)<br><br>
-                    &#9790; Professional qualification in Film Studies - Cine-tv Roberto Rossellini (2013 - 2015)</p>
+                    <h2 class="in-title">Experience</h2><p>&#9790; <strong>Freelance UX/UI Designer and Frontend Developer</strong> (2023 - current)<br><br>
+                    &#9790; <strong>Video Editor and VFX Artist</strong> - La Poesia Salverà Il Mondo (2016 - 2017)</p>
                 </div>
                 <div class="column right">
                 <h2 class="in-title">Scan to view my CV</h2>
@@ -93,8 +92,8 @@ Motion Graphics & Animation &#9789;<br></p>
             </div>    
             </div>
                 <div class="column right">
-                <h2 class="in-title">Languages</h2><p>Italian (native) &#9789;<br><br>
-                    English (fluent) &#9789;</p>
+                <h2 class="in-title">Languages</h2><p><strong>Italian</strong> (native) &#9789;<br><br>
+                    <strong>English</strong> (fluent) &#9789;</p>
                 </div>
             </div>
         </div>
@@ -161,7 +160,7 @@ Motion Graphics & Animation &#9789;<br></p>
             }
 
             echo '    </div>
-                    <a class="btn-small" href="' . htmlspecialchars($project['link']) . '">See case study</a>
+                    <a class="btn-small" href="' . htmlspecialchars($project['link']) . '">View case study</a>
                 </div>
             </div>';
         }
