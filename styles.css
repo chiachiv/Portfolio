@@ -644,3 +644,51 @@ ul li {
         border-bottom: 1px solid #93739c;
     }
 }
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    justify-items: center; 
+}
+
+.grid-item {
+    background-color: #3c4475;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%; 
+    max-width: 400px; 
+}
+
+.grid-item:last-child {
+    grid-column: 1 / -1; 
+    justify-self: center; 
+}
+
+.competitor-analysis-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); 
+    gap: 10px;
+    padding: 20px;
+    background-color: #ebd4da;
+}
+
+.grid-header {
+    font-weight: bold;
+    background-color: #93739c;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.grid-item-competitor {
+    background-color: #3c4475;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: left;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+}
