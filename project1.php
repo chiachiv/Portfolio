@@ -223,6 +223,7 @@
             <p>By focusing on scenarios, it was easier to identify key features the final product should have. This strategy enables designers to better understand the audience's needs and create <strong>user-friendly</strong> technologies.</p>
 </div>
  </section>
+</section>
 </body>
 </html>
 

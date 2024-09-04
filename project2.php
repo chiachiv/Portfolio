@@ -130,17 +130,17 @@
 </div>
 <div class="right">
         <h3 class="proj-sub">App Flow</h3>
-            <img src="images/appflow.png" alt="appflow">
+            <img src="images/appflow1.png" alt="appflow">
 </div>
 <div class="left">
         <h3 class="proj-sub">User Flow</h3>
-            <img src="images/userflowcheck.png" alt="userflowcheck">
+            <img src="images/userflows.png" alt="userflowcheck">
 </div>
 <div class="right">
             <h2 class="proj-title">UI Design</h2>
-            <h3 class="proj-sub">Components</h3>
             <img src="images/uimed.png" alt="Uimed">
         </div>
+</div>
         <div class="left">
         <h3 class="proj-sub">Paper prototype</h3>
             <img src="images/paperproto.png" alt="paper">
@@ -149,14 +149,35 @@
         <h3 class="proj-sub">High-fidelity prototype</h3>
             <img src="images/highfidmed.png" alt="highfidmed">
 </div>
-<div class="right">
+<div class="left">
+        <h2 class="proj-title">Testing</h2>
+        <h3 class="proj-sub">User walkthrough</h3>
+        <div class="findings-con">
+        <h2 class="fin-title">Method:</h2>
+        <p>A possible user was asked to perform a walkthrough. They were asked to complete three tasks while interacting with the High-Fidelity prototype.</p>
+        <ul>
+            <li><p>Try to use the app to find a diagnosis for a headache.</p></li>
+            <li><p>Try to use the app to find a diagnosis for a headache, chat with an expert and find a clinic.</p></li>
+            <li><p>Try to use the app to write in your “health journal”.</p></li>
+        </ul>
+        <h3 class="proj-sub">Cooperative evaluation</h3>
+        <div class="findings-con">
+        <h2 class="fin-title">Method:</h2>
+        <p>To test the usability of the application, I have asked a possible user to do a cooperative evaluation. They have been asked to use the High-Fidelity prototype and then I started a conversation with them.</p>
+        <h2 class="fin-title">Implementation:</h2>
+        <p>the possible user first used the application in the previous walkthrough. Then they were asked to use the mobile app and after that I asked them to start a conversation for a cooperative evaluation. The conversation was not led by any questions or a clear structure to avoid bias and the focus of this evaluation was about the experience that user had while interacting with the possible product.</p>
+    </div>
+    <div class="right">
         <h3 class="proj-sub">Conclusion</h3>
-            <p>For this project, our team created a mobile application designed to help students find the perfect <strong>internship</strong>, making the transition from study to career smoother.</p>
-            <p>I focused on the <strong>UX/UI design</strong> and <strong>frontend development</strong>, using HTML, CSS, and JavaScript to build a clean, intuitive interface that prioritized ease of use for students.</p>
-            <p>We aimed to deliver a <strong>user-friendly</strong> experience while integrating <strong>machine learning</strong> to match students with suitable internships.</p>
-            <p>Although we faced some <strong>challenges</strong> and made changes to our initial plan, the final product effectively met our goals, providing a valuable tool for students navigating their career paths.</p>
+            <p>Reflecting on this project, using the five steps of <strong>design thinking</strong> was crucial in creating a mobile app that truly meets user needs.</p>
+            <p>Starting with <strong>empathy</strong> it allowed to understand the real challenges people face when trying to self-diagnose.</p>
+            <p>By <strong>defining</strong> the core problems, I could focus on solutions that prioritize user safety and accessibility.</p>
+            <p><strong>Ideation</strong> helped in find innovative features, like the AI-driven questionnaire and live expert chat, which are essential in guiding users toward accurate information.</p>
+            <p><strong>Prototyping and testing</strong> allowed to refine these ideas, ensuring that the final product is both intuitive and effective.</p>
+            <p>Overall, this process highlighted the importance of staying <strong>user-focused and iterative in design</strong>, leading to an app that supports better health outcomes.</p>
 </div>
  </section>
+</section>
     </div>
 </body>
 </html>

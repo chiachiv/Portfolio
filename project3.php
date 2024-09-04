@@ -114,7 +114,7 @@
         <img src="images/customerjourney.png" alt="customerjourney" class="centered-image">
 </div>
 <h3 class="proj-sub">Wireframes</h3>
-        <img src="images/wireframes.png" alt="wireframes" class="centered-image">
+        <img src="images/wireframes1.png" alt="wireframes" class="centered-image">
 </div>
 <div class="left">
 <h2 class="proj-title">UI Design</h2>
@@ -152,6 +152,7 @@
             <p>Although we faced some <strong>challenges</strong> and made changes to our initial plan, the final product effectively met our goals, providing a valuable tool for students navigating their career paths.</p>
 </div>
  </section>
+</section>
     </div>
 </body>
 </html>
