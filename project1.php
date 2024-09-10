@@ -44,20 +44,16 @@
 
     <!-- Titoli e paragrafi alternati -->  
     
-    <section class="content">
-        <div class="left">
+    <section class="research">
             <p><strong>Overview:</strong> Living a more sustainable life, thanks to the use of technology, is possible, and developing the design of a mobile application based on the principles of permaculture can bring more people closer to a more ethical way of living.<br><br>
             <strong>Role:</strong> UX Researcher, UX/UI Designer<br><br>
-            <strong>Tools:</strong> Figma, Figjam</p>
-        </div>
+            <strong>Tools:</strong> Figma, Figjam</p><br>
  
-        <div class="right">
             <h2 class="proj-title">UX Research</h2>
             <p>I applied the <strong>PACT analysis</strong> framework to design <i>CompostIt</i>.<br>PACT analysis</strong> is a <strong>user-centered design</strong> framework that focuses on four key components: <strong>People</strong>, <strong>Activities</strong>, <strong>Context</strong>, and <strong>Technology</strong>. Its strength lies in its holistic approach, which examines how these elements interact to shape the overall user experience.<br><br>The project consisted of creating an application based on <strong>permaculture</strong> principles.</p>
-            <div class="square">
-            Permaculture is unique because it encourages us to mimic nature's designs in our daily lives, influencing how we consume and produce. By adopting permaculture principles, we can lead a more sustainable and ethical life, prioritize renewable resources, support natural processes, and minimize waste.
-    </div>
-    <p>The project began by gathering people's concerns about permaculture, especially around <strong>reducing food waste</strong>. This led to creating a mobile app to help users turn expired food into compost.</p>    
+            <div class="square">Permaculture is unique because it encourages us to mimic nature's designs in our daily lives, influencing how we consume and produce. By adopting permaculture principles, we can lead a more sustainable and ethical life, prioritize renewable resources, support natural processes, and minimize waste.</div>
+    
+            <p>The project began by gathering people's concerns about permaculture, especially around <strong>reducing food waste</strong>. This led to creating a mobile app to help users turn expired food into compost.</p>    
             <h3 class="proj-sub">User stories</h3>
             <div class="post-it-container">
         <div class="post-it" style="background-color: #93739c;">
@@ -70,8 +66,6 @@
             <p class="post-p">"Living alone, I struggle with food waste, especially fruits and veggies. I’d like to learn about composting but don't know how to use it at home."</p>
         </div>
     </div>
-        </div>
-    <div class="left">
     <h3 class="proj-sub">Research Findings & Project Overview</h3>
     <div class="findings-con">
         <h2 class="fin-title">Research Findings:</h2>
@@ -98,8 +92,6 @@
             <li><p><strong>Focus:</strong> Enabled sharing of tips and promoted mindfulness about food waste.</p></li>
         </ul>
     </div>
-</div>
-         <div class="right">
          <h3 class="proj-sub">Personas</h3>
          <section class="personas">
             <div class="persona">
@@ -132,9 +124,7 @@
                 </div>
                 <img src="images/youngman.png" alt="Etienne Monet" class="persona-image">
             </div>
-        </section>
-        </div>
-        <div class="left">
+       
         <h2 class="proj-title">UX Design</h2>
         <h3 class="proj-sub">Conceptual & Concrete Scenarios</h3>
         <section class="scenarios">
@@ -150,11 +140,8 @@
             <p class="p-persona"><strong>Notes:</strong> [1] need an account [2] a map to show where to bring your waste [3] select an association [4] bring the food waste.</p>
             </div>
         </section>
-        </div>
-        <div class="right">
+
         <h3 class="proj-sub">Requirements</h3>
-</div>
-<div class="left">
         <section class="requirements">
             <div class="requirement-header">
                 <div><p class="p-persona">Reference Number</p></div>
@@ -199,25 +186,16 @@
                 <div><p class="p-persona">It can be helpful to find an association on the map, but you can just type in the map without using your location</p></div>
             </div>
         </section>
-</div>
-<div class="left">
+
 <h3 class="proj-sub">User Flow</h3>
         <img src="images/userflow.png" alt="userflow" class="centered-image">
-</div>
-        <div class="right">
 <h3 class="proj-sub">Use Cases</h3>
         <img src="images/usecases.png" alt="usecases" class="centered-image">
-    </div>
-        <div class="right">
             <h2 class="proj-title">UI Design</h2>
             <h3 class="proj-sub">Components</h3>
             <img src="images/uicompost.png" alt="Uicompost">
-        </div>
-        <div class="left">
         <h3 class="proj-sub">High-fidelity prototype</h3>
             <img src="images/highfid.png" alt="highfidelity">
-</div>
-<div class="right">
         <h3 class="proj-sub">Conclusion</h3>
             <p>Developing a project using a <strong>scenario-based approach</strong> proved very effective. The <strong>PACT analysis</strong> helped in understanding how the target audience might interact with the technology and highlighted their needs and concerns. This approach allowed designers to continuously evaluate and refine the project to align with <strong>user needs</strong>.</p>
             <p>By focusing on scenarios, it was easier to identify key features the final product should have. This strategy enables designers to better understand the audience's needs and create <strong>user-friendly</strong> technologies.</p>

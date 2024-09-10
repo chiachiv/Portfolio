@@ -134,7 +134,7 @@ Motion Graphics & Animation &#9789;<br></p>
                 ]
             ],
             [
-                'title' => 'Comparative Study of Design Thinking and Human-Centered Design in Web Development',
+                'title' => 'Comparative Study of Design Thinking and HCD in Web Development',
                 'description' => 'I created and compared two different websites to establish evaluation guidelines for UX design methods',
                 'link' => 'project4.php',
                 'image' => 'images/dissdef.jpg',

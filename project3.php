@@ -45,14 +45,10 @@
 
     <!-- Titoli e paragrafi alternati -->  
     
-    <section class="content">
-        <div class="left">
+    <section class="research">
             <p><strong>Overview:</strong> The idea for this project was a mobile application that can be used by students all over the world to apply for internship. Using ML and AI the system will match profiles of students to an internship, and it will show them to employers as well.<br><br>
             <strong>Role:</strong> UX Researcher, UX/UI Designer, Frontend Developer<br><br>
-            <strong>Tools:</strong> Figma, Figjam, HTML, CSS, JavaScript, XML</p>
-        </div>
- 
-        <div class="right">
+            <strong>Tools:</strong> Figma, Figjam, HTML, CSS, JavaScript, XML</p><br>
             <h2 class="proj-title">UX Research</h2>
             <p>It was challenging to apply machine learning (<strong>ML</strong>) and artificial intelligence (<strong>AI</strong>) to match student profiles with the most suitable internships and present them to employers. Therefore, in-depth research was needed. I used a <strong>human-centered</strong> design method. This kind of approach allows to have a deep understanding of the target audience. Also, a <strong>scenario-based</strong> design can be very helpful to understand all the single steps taken by possible users while interacting with the product.</p>
             <h3 class="proj-sub">Competitive Analysis</h3>
@@ -88,7 +84,6 @@
                 </ul>
             </div>
         </div>
-            <div class="left">
          <h3 class="proj-sub">Personas</h3>
          <section class="personas">
             <div class="persona">
@@ -98,8 +93,6 @@
                     <p class="p-persona">25 years old. Postgraduate student at Napier University from Barcelona. She is enrolled in the MSc Computing Programme Course, and she is doing her last trimester before her dissertation. She has computing skills, baby-sitting skills and she would like to find a job as a full stack web developer.<br><br>She worked part-time as a baby sitter during her studies but she also did a lot of side jobs as a web developer to improve her skills while studying and to prepare her portfolio.<br><br>She is from Barcelona, Spain and now she is living in Edinburgh in a shared house with other students. She likes technology, she enjoys outdoors activities, animals and she is very active politically.<br>She doesn’t like to feel bored or to stay at home for a whole day. Dalia likes to keep herself busy with a lot of activities and she would like to find a good internship for when she will graduate. She would like to work for a company that is very dynamic because as a web developer she would like to implement new ideas, work for different projects, and hopefully expand her horizons.</p>
                 </div>
             </div>
-            </div>
-            <div class="right">
         <h2 class="proj-title">UX Design</h2>
         <h3 class="proj-sub">Scenarios</h3>
         <section class="scenarios">
@@ -108,27 +101,18 @@
                 <p class="p-persona">Dalia is finishing her studies; she is currently finishing her last trimester before her master’s degree dissertation. In the meantime, she would like to start to find a good <strong>internship</strong> that could be a good opportunity for her dissertation.</p><p class="p-persona">She interested in <strong>full stack web development</strong> so Dalia would like to find an internship that can offer this job experience. Dalia talks to a friend about this, and her friend suggests her to try a mobile app called <strong>TrueIntern</strong>.</p><p class="p-persona">Dalia decides to give it a try, so she installs the app on her phone. Dalia just needs to <strong>sign up</strong> with an account, the process is very intuitive since it is very similar to register for a social network. She just needs to put in the app her basic info, and to help the <strong>research</strong> for the internship better some key points on what she would like to find and her CV.</p><p class="p-persona">Once everything is uploaded, she starts to receive some <strong>offers</strong> but at the same time Dalia is able to view some positions that could interests her. After she receive an offer that she is very interested in and after <strong>chatting</strong> with the recruiter she is ready to arrange an interview.</p>
 </div>
 </section>
-</div>
-<div class="right">
 <h3 class="proj-sub">Customer journey</h3>
         <img src="images/customerjourney.png" alt="customerjourney" class="centered-image">
-</div>
 <h3 class="proj-sub">Wireframes</h3>
         <img src="images/wireframes1.png" alt="wireframes" class="centered-image">
-</div>
-<div class="left">
 <h2 class="proj-title">UI Design</h2>
 <img src="images/uitrueintern.png" alt="uitrueintern">
 <h3 class="proj-sub">High-fidelity prototype</h3>
 <img src="images/highfidtrueint.png" alt="highfidelitytrue">
-</div>
-<div class="right">
         <h2 class="proj-sub">Frontend</h2>
         <p>For the frontend development of the mobile application, I used <strong>HTML</strong>, <strong>CSS</strong>, and <strong>JavaScript</strong> to create a responsive and intuitive user interface.</p>
 <p>I focused on crafting a seamless experience that allows students to easily navigate the app and apply for internships. Using JavaScript, I developed interactive elements and ensured smooth, dynamic interactions throughout the app.</p>
 <p>Additionally, <strong>XML</strong> was used to handle data exchange, particularly for integrating machine learning and AI functionalities that match students with relevant internships and showcase their profiles to employers effectively.</p>
-</div>
-<div class="left">
 <h3 class="proj-sub">Testing</h3>
     <div class="findings-con">
 <p>For this part we tested the application by conducting a testing with two possible users.</p>
@@ -143,20 +127,17 @@
 <p>The first task was performed in less than 3 minutes for both participants, the second task was performed in 2 minutes by one participant and less than 2 minutes by the other. The third one was performed by both of users in less than a minute.</p>
 <p>After the verification with possible users the team managed to fix some bugs that were found in the chat page. Testing the app helped the team to verify and to confirm the usability of the application.</p> 
     </div>
-</div>
-<div class="right">
         <h3 class="proj-sub">Conclusion</h3>
             <p>For this project, our team created a mobile application designed to help students find the perfect <strong>internship</strong>, making the transition from study to career smoother.</p>
             <p>I focused on the <strong>UX/UI design</strong> and <strong>frontend development</strong>, using HTML, CSS, and JavaScript to build a clean, intuitive interface that prioritized ease of use for students.</p>
             <p>We aimed to deliver a <strong>user-friendly</strong> experience while integrating <strong>machine learning</strong> to match students with suitable internships.</p>
             <p>Although we faced some <strong>challenges</strong> and made changes to our initial plan, the final product effectively met our goals, providing a valuable tool for students navigating their career paths.</p>
-</div>
+            </div>
  </section>
  <footer>
         <p>&copy; 2024 Chiara Venanzetti - UX/UI Designer and Frontend developer</p>
     </footer>
-    </div>
+</div>
 </section>
-    
 </body>
 </html>

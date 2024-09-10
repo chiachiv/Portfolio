@@ -44,21 +44,16 @@
 
     <!-- Titoli e paragrafi alternati -->  
     
-    <section class="content">
-        <div class="left">
+    <section class="research">
             <p><strong>Overview:</strong> The design concept for this project was to create a simple and accessible medical mobile application for self-diagnosis. The app starts with an AI-driven questionnaire to help users understand their symptoms and connects them to a live chat with an expert to avoid dangerous self-diagnosis. Additionally, the app assists users in finding nearby clinics for immediate care and allows them to keep track of their health in a "health journal."<br><br>
             <strong>Role:</strong> UX Researcher, UX/UI Designer<br><br>
-            <strong>Tools:</strong> Figma, Figjam, Axure RP</p>
-        </div>
- 
-        <div class="right">
+            <strong>Tools:</strong> Figma, Figjam, Axure RP</p><br>
             <h2 class="proj-title">UX Research</h2>
             <p>It is a service that helps people to understand better their symptoms and that can help them to take the right action, it also can help to avoid <strong>dangerous self-diagnosis</strong>. In fact, people usually relay on Google when it comes to find a quick solution to their problems. This could be very dangerous because usually typing symptoms as a research on the internet does not give the user an accurate and safe solution.</p>
             <p>The plan was made to reflect the <strong>design thinking five stage process</strong>.</p><br>
             <img src="images/5steps.png" alt="fivesteps"><br>
             <h3 class="proj-sub">Competitive Analysis</h3>
-</div>
-<div class="left">
+
 <div class="competitor-analysis-grid">
     <div class="grid-header"><p class="p-persona">Competitor</p></div>
     <div class="grid-header"><p class="p-persona">Functional Requirements</p></div>
@@ -84,8 +79,6 @@
     <div class="grid-item-competitor"><p class="p-persona">Smart app design, but unclear separation between website and app.</p></div>
     <div class="grid-item-competitor"><p class="p-persona">Ensure clear separation of functionalities if expanding to a website.</p></div>
 </div>
-</div>
-<div class="right">
          <h3 class="proj-sub">Personas</h3>
          <section class="personas">
             <div class="persona">
@@ -111,45 +104,27 @@
                 <p class="p-persona">She would also like to <strong>keep track</strong> of her health journey in one single place so an app can be very helpful. Being an individual that suffers of terrible anxiety, having <strong>a service that can support the whole process</strong> of knowing what your symptoms are, making an appointment, etc. can be extremely helpful for Maria. She also would like to stop feeding her anxiety by doing <strong>incorrect self-diagnosis</strong>, so having an expert support by just opening an app on her phone could be very helpful.</p>
             </div>
         </section>
-        </div>
-        <div class="left">
         <h3 class="proj-sub">Customer journey</h3>
             <img src="images/customerjourneymed.png" alt="customerjourney">
-</div>
-<div class="right">
     <h3 class="proj-sub">Interviews</h3>
     <div class="findings-con">
         <h2 class="fin-title">Method:</h2>
         <p>10 open-ended questions were asked to 8 respondents, aged between 20 and 57.</p>
         <h2 class="fin-title">Findings:</h2>
 <p>All respondents found the idea useful and said they would use it. However, most noted that <strong>older users</strong> might struggle with the app. They suggested a clean, simple design to aid usability. 80% believed that <strong>chatting with a real expert</strong> could prevent dangerous self-diagnosis. Additionally, 30% recommended a <strong>"health journal"</strong> feature to track visits and bills, which was incorporated into the final product and iterated upon during development.</p>
-    </div>
-    <div class="left">
-        <h3 class="proj-sub">Blueprint</h3>
+</div>        
+<h3 class="proj-sub">Blueprint</h3>
             <img src="images/blueprint.png" alt="blueprint">
-</div>
-<div class="right">
         <h3 class="proj-sub">App Flow</h3>
             <img src="images/appflow1.png" alt="appflow">
-</div>
-<div class="left">
         <h3 class="proj-sub">User Flow</h3>
             <img src="images/userflows.png" alt="userflowcheck">
-</div>
-<div class="right">
             <h2 class="proj-title">UI Design</h2>
             <img src="images/uimed.png" alt="Uimed">
-        </div>
-</div>
-        <div class="left">
         <h3 class="proj-sub">Paper prototype</h3>
             <img src="images/paperproto.png" alt="paper">
-</div>
-<div class="right">
         <h3 class="proj-sub">High-fidelity prototype</h3>
             <img src="images/highfidmed.png" alt="highfidmed">
-</div>
-<div class="left">
         <h2 class="proj-title">Testing</h2>
         <h3 class="proj-sub">User walkthrough</h3>
         <div class="findings-con">
@@ -160,14 +135,14 @@
             <li><p>Try to use the app to find a diagnosis for a headache, chat with an expert and find a clinic.</p></li>
             <li><p>Try to use the app to write in your “health journal”.</p></li>
         </ul>
+</div>
         <h3 class="proj-sub">Cooperative evaluation</h3>
         <div class="findings-con">
         <h2 class="fin-title">Method:</h2>
         <p>To test the usability of the application, I have asked a possible user to do a cooperative evaluation. They have been asked to use the High-Fidelity prototype and then I started a conversation with them.</p>
         <h2 class="fin-title">Implementation:</h2>
         <p>the possible user first used the application in the previous walkthrough. Then they were asked to use the mobile app and after that I asked them to start a conversation for a cooperative evaluation. The conversation was not led by any questions or a clear structure to avoid bias and the focus of this evaluation was about the experience that user had while interacting with the possible product.</p>
-    </div>
-    <div class="right">
+</div>
         <h3 class="proj-sub">Conclusion</h3>
             <p>Reflecting on this project, using the five steps of <strong>design thinking</strong> was crucial in creating a mobile app that truly meets user needs.</p>
             <p>Starting with <strong>empathy</strong> it allowed to understand the real challenges people face when trying to self-diagnose.</p>
@@ -175,7 +150,7 @@
             <p><strong>Ideation</strong> helped in find innovative features, like the AI-driven questionnaire and live expert chat, which are essential in guiding users toward accurate information.</p>
             <p><strong>Prototyping and testing</strong> allowed to refine these ideas, ensuring that the final product is both intuitive and effective.</p>
             <p>Overall, this process highlighted the importance of staying <strong>user-focused and iterative in design</strong>, leading to an app that supports better health outcomes.</p>
-</div>
+            </div>
  </section>
  <footer>
         <p>&copy; 2024 Chiara Venanzetti - UX/UI Designer and Frontend developer</p>

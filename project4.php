@@ -29,7 +29,7 @@
                 <a href="index.php" class="back-arrow">
                     <i class="fas fa-arrow-left"></i>
                 </a>
-                <h2 class="project-title">Comparative Study of Design Thinking and Human-Centered Design in Web Development</h2>
+                <h2 class="project-title">Comparative Study of Design Thinking and HCD in Web Development</h2>
             </div>
         </div>
         <!-- Project Details Section -->
@@ -261,15 +261,16 @@
 
     <section id="conclusion">
         <h2 class="proj-title">Conclusion</h2>
-        <div class="square">Through the comparison of the two methodologies, it became clear that while both are complementary, their application in different contexts highlights distinct advantages.</div>
+        <p>Through the comparison of the two methodologies, it became clear that while <strong>both are complementary</strong>, their application in different contexts highlights distinct advantages.</p>
     </section>
-    <footer>
+    </div>
+ </section>
+ <footer>
         <p>&copy; 2024 Chiara Venanzetti - UX/UI Designer and Frontend developer</p>
     </footer>
 </div>
-        </section>
-</div>
-    </body>
+</section>
+</body>
 </html>
 
 
