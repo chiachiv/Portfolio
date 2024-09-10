@@ -248,8 +248,8 @@ section p {
 .fixed-header {
     position: fixed;
     top: 0;
-    left: 0; /* Adjusted to start from the left edge of the viewport */
-    width: 100%; /* Ensure it spans the full width */
+    left: 25%;
+    width: 75%;
     background-color: #93739c;
     padding: 1rem;
     border-bottom: 1px solid #93739c;
