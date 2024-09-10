@@ -53,7 +53,7 @@
  
         <div class="right">
             <h2 class="proj-title">UX Research</h2>
-            <p>During my master’s degree, for the Design Dialogues module, I applied the <strong>PACT analysis</strong> framework to design <i>CompostIt</i>.<br>PACT analysis</strong> is a <strong>user-centered design</strong> framework that focuses on four key components: <strong>People</strong>, <strong>Activities</strong>, <strong>Context</strong>, and <strong>Technology</strong>. Its strength lies in its holistic approach, which examines how these elements interact to shape the overall user experience.<br><br>The project consisted of creating an application based on <strong>permaculture</strong> principles.</p>
+            <p>I applied the <strong>PACT analysis</strong> framework to design <i>CompostIt</i>.<br>PACT analysis</strong> is a <strong>user-centered design</strong> framework that focuses on four key components: <strong>People</strong>, <strong>Activities</strong>, <strong>Context</strong>, and <strong>Technology</strong>. Its strength lies in its holistic approach, which examines how these elements interact to shape the overall user experience.<br><br>The project consisted of creating an application based on <strong>permaculture</strong> principles.</p>
             <div class="square">
             Permaculture is unique because it encourages us to mimic nature's designs in our daily lives, influencing how we consume and produce. By adopting permaculture principles, we can lead a more sustainable and ethical life, prioritize renewable resources, support natural processes, and minimize waste.
     </div>
@@ -223,6 +223,10 @@
             <p>By focusing on scenarios, it was easier to identify key features the final product should have. This strategy enables designers to better understand the audience's needs and create <strong>user-friendly</strong> technologies.</p>
 </div>
  </section>
+ <footer>
+        <p>&copy; 2024 Chiara Venanzetti - UX/UI Designer and Frontend developer</p>
+    </footer>
+</div>
 </section>
 </body>
 </html>

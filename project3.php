@@ -54,7 +54,7 @@
  
         <div class="right">
             <h2 class="proj-title">UX Research</h2>
-            <p>This was a project I completed during my master’s degree for the Group Project module. It was challenging to apply machine learning (<strong>ML</strong>) and artificial intelligence (<strong>AI</strong>) to match student profiles with the most suitable internships and present them to employers. Therefore, in-depth research was needed. I used a <strong>human-centered</strong> design method. This kind of approach allows to have a deep understanding of the target audience. Also, a <strong>scenario-based</strong> design can be very helpful to understand all the single steps taken by possible users while interacting with the product.</p>
+            <p>It was challenging to apply machine learning (<strong>ML</strong>) and artificial intelligence (<strong>AI</strong>) to match student profiles with the most suitable internships and present them to employers. Therefore, in-depth research was needed. I used a <strong>human-centered</strong> design method. This kind of approach allows to have a deep understanding of the target audience. Also, a <strong>scenario-based</strong> design can be very helpful to understand all the single steps taken by possible users while interacting with the product.</p>
             <h3 class="proj-sub">Competitive Analysis</h3>
             <div class="grid">
             <div class="grid-item">
@@ -152,7 +152,11 @@
             <p>Although we faced some <strong>challenges</strong> and made changes to our initial plan, the final product effectively met our goals, providing a valuable tool for students navigating their career paths.</p>
 </div>
  </section>
-</section>
+ <footer>
+        <p>&copy; 2024 Chiara Venanzetti - UX/UI Designer and Frontend developer</p>
+    </footer>
     </div>
+</section>
+    
 </body>
 </html>

@@ -69,7 +69,7 @@ Motion Graphics & Animation &#9789;<br></p>
                 </div>
                 <div class="column right">
                 <h2 class="in-title">Scan to view my CV</h2>
-                <img src="images/My_PDF.png" alt="CV" class="cv-img">
+                <img src="images/qrcode.png" alt="CV" class="cv-img">
                 </div>
             </div>
             <div class="column-container">
@@ -134,7 +134,7 @@ Motion Graphics & Animation &#9789;<br></p>
                 ]
             ],
             [
-                'title' => 'Dissertation project for my master degree',
+                'title' => 'Comparative Study of Design Thinking and Human-Centered Design in Web Development',
                 'description' => 'I created and compared two different websites to establish evaluation guidelines for UX design methods',
                 'link' => 'project4.php',
                 'image' => 'images/dissdef.jpg',

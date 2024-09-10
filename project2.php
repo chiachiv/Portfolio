@@ -53,7 +53,7 @@
  
         <div class="right">
             <h2 class="proj-title">UX Research</h2>
-            <p>This was a project I completed during my master’s degree for the User Experience and Service Design module. It is a service that helps people to understand better their symptoms and that can help them to take the right action, it also can help to avoid <strong>dangerous self-diagnosis</strong>. In fact, people usually relay on Google when it comes to find a quick solution to their problems. This could be very dangerous because usually typing symptoms as a research on the internet does not give the user an accurate and safe solution.</p>
+            <p>It is a service that helps people to understand better their symptoms and that can help them to take the right action, it also can help to avoid <strong>dangerous self-diagnosis</strong>. In fact, people usually relay on Google when it comes to find a quick solution to their problems. This could be very dangerous because usually typing symptoms as a research on the internet does not give the user an accurate and safe solution.</p>
             <p>The plan was made to reflect the <strong>design thinking five stage process</strong>.</p><br>
             <img src="images/5steps.png" alt="fivesteps"><br>
             <h3 class="proj-sub">Competitive Analysis</h3>
@@ -177,7 +177,10 @@
             <p>Overall, this process highlighted the importance of staying <strong>user-focused and iterative in design</strong>, leading to an app that supports better health outcomes.</p>
 </div>
  </section>
+ <footer>
+        <p>&copy; 2024 Chiara Venanzetti - UX/UI Designer and Frontend developer</p>
+    </footer>
+</div>
 </section>
-    </div>
 </body>
 </html>
