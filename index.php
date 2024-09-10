@@ -14,9 +14,6 @@
 <body>
     <!-- Fixed Image Section -->
     <div class="fixed-sidebar">
-    <a href="index.php">
-        <img src="images/photo_2024-03-12_22-28-09.jpg" alt="Profile Image" class="profile-img">
-    </a>
         <h1 class="sidebar-heading">Chiara Venanzetti</h1>
         <p class="sidebar-subheading">UX/UI Designer & Frontend Developer</p>
     </div>

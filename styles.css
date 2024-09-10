@@ -38,7 +38,7 @@ body {
     top: 0;
     left: 0;
     height: 100%;
-    background-image: url('https://i.pinimg.com/564x/09/7f/8a/097f8a0c1a6c6845c4669c74465d09b4.jpg');
+    background-image: url('images/flowersss.png');
     background-size: cover;
     background-position: center; 
     color: #ebd4da;
@@ -49,14 +49,6 @@ body {
     padding: 2rem;
     box-sizing: border-box;
     text-align: center; 
-}
-
-.profile-img {
-    width: 8rem;
-    height: 8rem;
-    border-radius: 50%;
-    border: 0.25rem solid #ebd4da;
-    margin-bottom: 1rem;
 }
 
 .cv-img {
@@ -70,18 +62,18 @@ body {
     font-size: 1.875rem;
     margin-bottom: 0.5rem;
     font-family: "Young Serif", serif;
-    color: #93739c;
-    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
-               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+    color: #ebd4da;
+    text-shadow: 2px 0 #242c53, -2px 0 #242c53, 0 2px #242c53, 0 -2px #242c53,
+               1px 1px #242c53, -1px -1px #242c53, 1px -1px #242c53, -1px 1px #242c53;
 }
 
 .sidebar-subheading {
     font-size: 1.125rem;
     margin-bottom: 1rem;
     font-family: "Young Serif", serif;
-    color: #93739c;
-    text-shadow: 2px 0 #000, -2px 0 #000, 0 2px #000, 0 -2px #000,
-               1px 1px #000, -1px -1px #000, 1px -1px #000, -1px 1px #000;
+    color: #ebd4da;
+    text-shadow: 2px 0 #242c53, -2px 0 #242c53, 0 2px #242c53, 0 -2px #242c53,
+               1px 1px #242c53, -1px -1px #242c53, 1px -1px #242c53, -1px 1px #242c53;
 }
 
 .main-content {
