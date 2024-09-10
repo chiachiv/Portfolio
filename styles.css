@@ -208,10 +208,12 @@ section p {
     box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.1);
     border-radius: 0.375rem;
     overflow: hidden;
+    width: auto;
 }
 
 .project-card .content {
     padding: 1.5rem;
+    width: auto;
 }
 
 .project-card a {

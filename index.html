@@ -98,68 +98,58 @@ Motion Graphics & Animation &#9789;<br></p>
         <section id="projects">
     <h2>Projects</h2>
     <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <?php
-        $projects = [
-            [
-                'title' => 'CompostIt',
-                'description' => 'A mobile application that helps people to recycle food waste in compost',
-                'link' => 'project1.php',
-                'image' => 'images/compostdef.jpg',
-                'badges' => [
-                    ['text' => 'Design', 'class' => 'badge-pink'],
-                ]
-            ],
-            [
-                'title' => 'TrueIntern',
-                'description' => 'A mobile application that can be used by students all over the world to apply for internships',
-                'link' => 'project3.php',
-                'image' => 'images/trueintdef.jpg',
-                'badges' => [
-                    ['text' => 'Design', 'class' => 'badge-pink'],
-                    ['text' => 'Frontend', 'class' => 'badge-blue'],
-                ]
-            ],
-            [
-                'title' => 'YourMedCare',
-                'description' => 'A medical mobile app for self-diagnosis that uses an AI questionnaire to guide users to expert consultations, helping them understand symptoms and take appropriate actions',
-                'link' => 'project2.php',
-                'image' => 'images/medcaredef.jpg',
-                'badges' => [
-                    ['text' => 'Design', 'class' => 'badge-pink'],
-                ]
-            ],
-            [
-                'title' => 'Comparative Study of Design Thinking and HCD in Web Development',
-                'description' => 'I created and compared two different websites to establish evaluation guidelines for UX design methods',
-                'link' => 'project4.php',
-                'image' => 'images/dissdef.jpg',
-                'badges' => [
-                    ['text' => 'Design', 'class' => 'badge-pink'],
-                    ['text' => 'Frontend', 'class' => 'badge-blue'],
-                ]
-            ],
-        ];
-
-        foreach ($projects as $project) {
-            echo '
-            <div class="project-card">
-                <img src="' . htmlspecialchars($project['image']) . '" alt="' . htmlspecialchars($project['title']) . '">
-                <div class="content">
-                    <h3>' . htmlspecialchars($project['title']) . '</h3>
-                    <p>' . htmlspecialchars($project['description']) . '</p>
-                    <div class="badge-container">';
-            
-            // Genera i badge dinamicamente per ciascun progetto
-            foreach ($project['badges'] as $badge) {
-                echo '<span class="badge ' . htmlspecialchars($badge['class']) . '">' . htmlspecialchars($badge['text']) . '</span>';
-            }
-
-            echo '    </div>
-                    <a class="btn-small" href="' . htmlspecialchars($project['link']) . '">View case study</a>
+        <!-- Project 1 -->
+        <div class="project-card">
+            <img src="images/compostdef.jpg" alt="CompostIt">
+            <div class="content">
+                <h3>CompostIt</h3>
+                <p>A mobile application designed to assist users in managing and recycling their food waste through composting</p>
+                <div class="badge-container">
+                    <span class="badge badge-pink">Design</span>
                 </div>
-            </div>';
-        }
-        ?>
+                <a class="btn-small" href="project2.html">View case study</a>
+            </div>
+        </div>
+        <!-- Project 2 -->
+        <div class="project-card">
+            <img src="images/trueintdef.jpg" alt="TrueIntern">
+            <div class="content">
+                <h3>TrueIntern</h3>
+                <p>A mobile application that can be used by students all over the world to apply for internships</p>
+                <div class="badge-container">
+                    <span class="badge badge-pink">Design</span>
+                    <span class="badge badge-blue">Frontend</span>
+                </div>
+                <a class="btn-small" href="project3.html">View case study</a>
+            </div>
+        </div>
+    
+        <!-- Project 3 -->
+        <div class="project-card">
+            <img src="images/medcaredef.jpg" alt="YourMedCare">
+            <div class="content">
+                <h3>YourMedCare</h3>
+                <p>A medical mobile app for self-diagnosis that uses an AI questionnaire to guide users to expert consultations, helping them understand symptoms and take appropriate actions</p>
+                <div class="badge-container">
+                    <span class="badge badge-pink">Design</span>
+                </div>
+                <a class="btn-small" href="project2.html">View case study</a>
+            </div>
+        </div>
+    
+        <!-- Project 4 -->
+        <div class="project-card">
+            <img src="images/dissdef.jpg" alt="Comparative Study of Design Thinking and HCD in Web Development">
+            <div class="content">
+                <h3>Comparative Study of Design Thinking and HCD in Web Development</h3>
+                <p>I created and compared two different websites to establish evaluation guidelines for UX design methods</p>
+                <div class="badge-container">
+                    <span class="badge badge-pink">Design</span>
+                    <span class="badge badge-blue">Frontend</span>
+                </div>
+                <a class="btn-small" href="project4.html">View case study</a>
+            </div>
+        </div>
     </div>
 </section>
         <hr>
