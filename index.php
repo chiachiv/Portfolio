@@ -27,10 +27,8 @@
         <div class="about-container-wrapper">
             <div class="container">
                 <div class="container-text">
-                    <h2 class="in-title">Hello,</h2><p>I'm Chiara, a <strong>UX/UI Designer</strong> and <strong>Frontend Developer</strong> currently based in Rome, Italy.
-                    <br>I hold an <strong>MSc in Computing</strong> and my passion lies in creating <strong>user-centered</strong> digital experiences that seamlessly blend functionality and aesthetic appeal. I also have experience as a <strong>VFX artist</strong> and <strong>video editor</strong>, which has enriched my approach to design and visual storytelling.
-                    <br>When I’m not working on digital projects, I enjoy painting with watercolors and spending time with my cats. Creativity and a keen eye for detail are at the core of everything I do.
-                    <br>Explore my portfolio to see the range of my work and how I bring ideas to life through design.</p>
+                    <h2 class="in-title">Hello,</h2><p>I'm Chiara, a <strong>UX/UI Designer</strong> and <strong>Frontend Developer</strong> based in Rome, Italy. With an <strong>MSc in Computing</strong>, I specialize in crafting <strong>user-centered</strong> digital experiences that combine functionality with aesthetic appeal. My background as a VFX artist and video editor further enhances my ability to create compelling and visually engaging designs.</p>
+<p>Creativity and attention to detail are the driving forces behind everything I do.</p><p>Explore my portfolio to discover how I bring ideas to life through thoughtful design</p>
                 </div>
                 <div class="about-image">
                     <img src="images/photo_2024-08-06_13-26-14.jpg" alt="Chiara" />
